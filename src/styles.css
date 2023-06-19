@@ -1,0 +1,46 @@
+.App {
+  background-color: gray;
+  font-family: sans-serif;
+  padding: 10px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+label {
+  text-align: center;
+}
+.input__text,
+.btn-submit {
+  width: 80%;
+  padding: 7px;
+  outline: none;
+}
+
+input:focus {
+  background: blueviolet;
+  outline: none;
+  border: none;
+}
+
+.btn-submit {
+  margin-top: 10px;
+}
+
+.todo_list {
+  padding-right: 20px;
+}
+
+button {
+  font-size: 15px;
+  border: none;
+  padding: 5px 10px;
+}
+.del-btn {
+  background: none;
+  border: 1px solid red;
+  color: red;
+}
